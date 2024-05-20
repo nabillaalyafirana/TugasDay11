@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/voom"
+    tools:context=".LineVoomActivity">
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="345dp"
+        android:layout_marginBottom="52dp"
+        android:background="@null"
+        android:contentDescription="@string/profile_description"
+        android:padding="8dp"
+        android:src="@drawable/test_account" />
+
+    <ImageButton
+        android:id="@+id/phoneButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/phone"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="252dp"
+        android:contentDescription="@string/phone_description"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/voomButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/three_triangles"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="180dp"
+        android:contentDescription="@string/voom_description"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/bubbleButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/chat_bubble"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="97dp"
+        android:contentDescription="@string/bubble_description"
+        android:padding="8dp" />
+
+    <ImageButton
+        android:id="@+id/pageButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/home_page"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/page_description"
+        android:padding="8dp" />
+
+</RelativeLayout>

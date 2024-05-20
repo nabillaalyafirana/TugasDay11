@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TugasDay11</string>
+    <string name="logo_description">logo_description</string>
+    <string name="profile_description">profile_description</string>
+    <string name="phone_description">phone_description</string>
+    <string name="voom_description">voom_description</string>
+    <string name="bubble_description">bubble_description</string>
+    <string name="page_description">page_description</string>
+</resources>
